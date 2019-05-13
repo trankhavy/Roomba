@@ -1,3 +1,7 @@
+*Comparison of different path planning algorithms for cleaner robot*
+
+Roomba is a robot that moves around the house to clean the floor. There are several different moving strategies for the robot, some of them are “random bounce” and “wall following”. The goal is to move around the room in the most even and efficient way as possible. In this project, we explored three different algorithms for robot path planning: naïve random walk, greedy algorithm and genetic algorithm in the context of moving around a dynamic environment without any prior knowledge. The three algorithms are compared based on three metrics: floor coverage percentage, total distance travelled and number of repeated cells.
+
 **Files**
 
  - classes.py: Includes all the classes created for the simulation
